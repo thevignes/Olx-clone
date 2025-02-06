@@ -7,7 +7,7 @@ import Login from './Components/Login/Login'
 import { Routes, Route, useNavigate, Navigate, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import AddProduct from './Components/Addproduct/Addproduct'
-import Count from './Count'
+
 // New Protected Route Component
 const ProtectedRoute = ({ children }) => {
   const [user, setUser] = useState(null);
@@ -59,7 +59,7 @@ function App() {
   return (
     <>
 
-<Count/>
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route 
