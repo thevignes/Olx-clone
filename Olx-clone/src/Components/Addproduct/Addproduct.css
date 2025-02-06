@@ -1,0 +1,93 @@
+.addProductContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 200px;
+}
+
+.addProductContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002f34;
+  font-size: 24px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #002f34;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus,
+.formGroup select:focus {
+  border-color: #002f34;
+  outline: none;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #002f34;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #00474d;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.formGroup input[type="file"] {
+  width: 100%; /* Match the width of other inputs */
+  padding: 10px; /* Match the padding of other inputs */
+  background-color: #f9f9f9; /* Match the background color of other inputs */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Match the font size of other inputs */
+  color: #333; /* Match the text color of other inputs */
+  cursor: pointer;
+  transition: border-color 0.3s ease; /* Match the transition of other inputs */
+}
+
+.formGroup input[type="file"]:hover {
+  border-color: #002f34; /* Match the hover effect of other inputs */
+}
